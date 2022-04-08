@@ -1,0 +1,22 @@
+package com.coderknock.apigateway.core.config;
+
+/**
+ * 项目版本信息
+ *
+ * @author sanchan
+ * @微信 sanchan_coderknock
+ * @B站 https://space.bilibili.com/62450448
+ * @CSDN https://blog.csdn.net/sanchan
+ * @WebSite https://coderknock.com
+ * @date 2022-04-09
+ */
+public final class Version {
+    /**
+     * project version
+     */
+    public static final String VERSION = "@pomversion@";
+    /**
+     * build timestamp
+     */
+    public static final String TIMESTAMP = "@buildtime@";
+}
